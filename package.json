@@ -16,7 +16,8 @@
   "scripts": {
     "lint": "eslint --fix './**/*.{js,ts}'",
     "prepack": "unbuild",
-    "release": "release-it"
+    "release": "release-it",
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
