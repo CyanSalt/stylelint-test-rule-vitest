@@ -1,0 +1,42 @@
+{
+  "name": "stylelint-test-rule-vitest",
+  "version": "0.1.0-0",
+  "description": "A Stylelint rule tester using Vitest",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix './**/*.{js,ts}'",
+    "prepack": "unbuild",
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyanSalt/stylelint-test-rule-vitest.git"
+  },
+  "keywords": [
+    "stylelint",
+    "test",
+    "vitest"
+  ],
+  "author": "CyanSalt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyanSalt/stylelint-test-rule-vitest/issues"
+  },
+  "homepage": "https://github.com/CyanSalt/stylelint-test-rule-vitest#readme",
+  "devDependencies": {
+    "@cyansalt/eslint-config": "^4.3.0",
+    "@cyansalt/tsconfig": "^2.2.1",
+    "@release-it/conventional-changelog": "^9.0.4",
+    "eslint": "^9.17.0",
+    "release-it": "^18.0.0",
+    "stylelint": "^16.12.0",
+    "typescript": "^5.7.2",
+    "unbuild": "^3.2.0",
+    "vitest": "^2.1.8"
+  },
+  "peerDependencies": {
+    "stylelint": ">=16.0.1",
+    "vitest": "*"
+  }
+}
