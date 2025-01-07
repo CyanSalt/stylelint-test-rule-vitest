@@ -1,8 +1,10 @@
 import { inspect } from 'node:util'
 import type { LinterResult } from 'stylelint'
-import { lint } from 'stylelint'
+import stylelint from 'stylelint'
 import { assert, describe, it } from 'vitest'
 import type { RuleConfigTestCase, RuleConfigTestSchema, TestCase, TestSchema } from './types'
+
+const { lint } = stylelint
 
 export function testRule(schema: TestSchema) {
   const {
