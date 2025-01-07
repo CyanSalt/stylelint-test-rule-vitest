@@ -1,6 +1,6 @@
 {
   "name": "stylelint-test-rule-vitest",
-  "version": "0.1.0-0",
+  "version": "0.1.0",
   "description": "A Stylelint rule tester using Vitest",
   "type": "module",
   "main": "./dist/index.cjs",
